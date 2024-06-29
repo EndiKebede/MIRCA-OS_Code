@@ -10,7 +10,7 @@ data/ - Includes all the input datasets used to generate the MIRCA-OS dataset.
 
 code/ - Includes the Jupyter notebooks used to generate and validate the MIRCA-OS dataset. The code has four main components: preprocessing, downscaling, mosaicking, and validation.
 
-## Preprocessinggit add README.md
+## Preprocessinggit
 
 We used several gridded input datasets, including the GAEZ annual harvested area gridded map (HA), the area equipped for irrigation (AEI), the HYDE cropland extent (CE), crop calendar, and the area of each grid cell. In this part of the code:
 
