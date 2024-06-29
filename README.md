@@ -34,4 +34,5 @@ The MIRCA-OS dataset has been validated against all available global and regiona
 Contributors
 Endalkachew Abebe Kebede
 Kevin Ong’are Oluoch
-Dr. Kyle Frankel Davis
+Dr. Kyle Frankel Davis 
+
