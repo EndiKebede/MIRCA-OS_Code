@@ -7,9 +7,11 @@ This repository provides all the necessary code to downscale subnational harvest
 The repository has two main components:
 
 data/ - Includes all the input datasets used to generate the MIRCA-OS dataset.
+
 code/ - Includes the Jupyter notebooks used to generate and validate the MIRCA-OS dataset. The code has four main components: preprocessing, downscaling, mosaicking, and validation.
 
-## Preprocessing
+## Preprocessinggit add README.md
+
 We used several gridded input datasets, including the GAEZ annual harvested area gridded map (HA), the area equipped for irrigation (AEI), the HYDE cropland extent (CE), crop calendar, and the area of each grid cell. In this part of the code:
 
 -We generated a five arcminute grid cell area in hectares.
@@ -32,7 +34,13 @@ The downscaling code will generate a TIFF file for each spatial unit according t
 The MIRCA-OS dataset has been validated against all available global and regional crop-specific irrigation area datasets. Global validation was done against the MIRCA2000 dataset and the GloRice (I) dataset, while regional validation was performed against EIM2010, and national level validation was done against MIRAD-CropScape and GLAD datasets. Details of the validation codes are summarized in this section.
 
 Contributors
+
 Endalkachew Abebe Kebede
+
 Kevin Ong’are Oluoch
+
 Dr. Kyle Frankel Davis 
 
+## Contact
+
+Please contact Endalkachew Kebede (endiabe@udel.edu) or Kyle Davis (kfdavis@udel.edu)
