@@ -43,4 +43,4 @@ Dr. Kyle Frankel Davis
 
 ## Contact
 
-Please contact Endalkachew Kebede (endiabe@udel.edu) or Kyle Davis (kfdavis@udel.edu)
+Please contact Endalkachew Kebede (endiabe@udel.edu) or Kyle Davis (kfdavis@udel.edu) for any questions.
