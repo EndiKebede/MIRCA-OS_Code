@@ -22,7 +22,9 @@ We used several gridded input datasets, including the GAEZ annual harvested area
 This part of the code provides detailed Python-based language code used to downscale national/subnational statistics to 5-arcminute resolution grid cells. The procedure includes:
 
 -Uploading the crop calendar.
+
 -Sorting the areas based on ranking priority.
+
 -Following seven distinct iterative and sequential steps: four to allocate irrigated areas and three for rainfed areas.
 
 While downscaling, the highest priority was given to ensure the sum of crop-specific irrigated area at each grid cell is lower than or equal to the AEI. For any amounts of harvested area that remained to be allocated within the administration unit after meeting this highest priority, we then spatially distributed these harvested areas to maximize the consistency of each grid's crop-specific irrigated and rainfed areas with CE and HA.
