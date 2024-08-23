@@ -15,7 +15,9 @@ code/ - Includes the Jupyter notebooks used to generate and validate the MIRCA-O
 We used several gridded input datasets, including the GAEZ annual harvested area gridded map (HA), the area equipped for irrigation (AEI), the HYDE cropland extent (CE), crop calendar, and the area of each grid cell. In this part of the code:
 
 -We generated a five arcminute grid cell area in hectares.
+
 -Clipped and reprojected all input datasets according to the target area.
+
 -Extracted the planting and maturity month of each spatial unit from the gridded crop calendar.
 
 ## Downscaling
