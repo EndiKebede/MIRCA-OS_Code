@@ -10,9 +10,9 @@ data/ - Includes all the input datasets used to generate the MIRCA-OS dataset.
 
 code/ - Includes the Jupyter notebooks used to generate and validate the MIRCA-OS dataset. The code has four main components: preprocessing, downscaling, mosaicking, and validation.
 
-## [Preprocessing](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Pre-Processing.ipynb)
+## Preprocessing
 
-We used several gridded input datasets, including the GAEZ annual harvested area gridded map (HA), the area equipped for irrigation (AEI), the HYDE cropland extent (CE), crop calendar, and the area of each grid cell. In this part of the code:
+We used several gridded input datasets, including the GAEZ annual harvested area gridded map (HA), the area equipped for irrigation (AEI), the HYDE cropland extent (CE), crop calendar, and the area of each grid cell. [In this part of the code](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Pre-Processing.ipynb):
 
 -We generated a five arcminute grid cell area in hectares.
 
@@ -20,7 +20,7 @@ We used several gridded input datasets, including the GAEZ annual harvested area
 
 -Extracted the planting and maturity month of each spatial unit from the gridded crop calendar.
 
-## [Downscaling](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Main_Downscaling_Code.ipynb)
+## Downscaling
 The downscaling code is organized into two separate files: one contains all the [functions](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Downscaling_Functions.ipynb) developed for the downscaling process, and the other is the [main script](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Main_Downscaling_Code.ipynb) that implements these functions. This part of the code provides detailed Python-based language code used to downscale national/subnational statistics to 5-arcminute resolution grid cells. The procedure includes:
 
 -Uploading the crop calendar.
@@ -31,11 +31,11 @@ The downscaling code is organized into two separate files: one contains all the 
 
 While downscaling, the highest priority was given to ensure the sum of crop-specific irrigated areas at each grid cell is lower than or equal to the AEI. For any harvested area that remained to be allocated within the administration unit after meeting this highest priority, we then spatially distributed these harvested areas to maximize the consistency of each grid's crop-specific irrigated and rainfed areas with CE and HA.
 
-## [Mosaicking](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Mosaicking.ipynb)
-The downscaling code will generate a TIFF file for each spatial unit according to their unit code. This part of the code enables the mosaicking of the rasters to generate a global map. Besides the code that is used to convert the monthly aggregated TIFF files into annual TIFF files is also included in this section.
+## Mosaicking
+The downscaling code will generate a TIFF file for each spatial unit according to their unit code. [This part of the code](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Mosaicking.ipynb)enables the mosaicking of the rasters to generate a global map. Besides the code that is used to convert the monthly aggregated TIFF files into annual TIFF files is also included in this section.
 
-## [Validation](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Validation-Global_MIRCA2000.ipynb)
-The MIRCA-OS dataset has been validated against all available global and regional crop-specific irrigation area datasets. Global validation was done against the MIRCA2000 dataset and the GloRice (I) dataset, while regional validation was performed against EIM2010, and national-level validation was done against the MIRAD-CropScape and GLAD datasets. Details of the validation codes are summarized in this section.
+## Validation
+The MIRCA-OS dataset has been validated against all available global and regional crop-specific irrigation area datasets. Global validation was done against [the MIRCA2000 dataset](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Validation-Global_MIRCA2000.ipynb) and [the GloRice (I) dataset]( https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Validation-Global-GlORICE(I).ipynb), while regional validation was performed against [EIM2010](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Europe%20validation.ipynb), and national-level validation was done against the [MIRAD-CropScape](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/US-Validation.ipynb) and [GLAD datasets](https://github.com/MIRCA-OS/MIRCA-OS_Code/blob/main/code/Brazil_validation-.ipynb). Details of the validation codes are summarized in this section.
 
 ## Contributors
 
