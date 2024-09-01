@@ -3,12 +3,9 @@ This dataset is an update of MIRCA2000. Utilizing a data library of subnational 
 
 This repository provides all the necessary code to downscale subnational harvested area statistics to 5-arcminute resolution grid cell areas.
 
-## Repository Structure
-The repository has two main components:
+## Repository Overview
 
-data/ - Includes all the input datasets used to generate the MIRCA-OS dataset.
-
-code/ - Includes the Jupyter notebooks used to generate and validate the MIRCA-OS dataset. The code has four main components: preprocessing, downscaling, mosaicking, and validation.
+This repository is organized into two primary sections. The first section, located in the data/ directory, contains all the input datasets that were used to generate the MIRCA-OS dataset. The second section, found in the code/ directory, includes Jupyter notebooks that were used for generating and validating the MIRCA-OS dataset. This code is structured into four main components: preprocessing, downscaling, mosaicking, and validation.
 
 ## Preprocessing
 
