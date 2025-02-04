@@ -47,8 +47,7 @@ Dr. Kyle Frankel Davis
 Please contact Endalkachew Kebede (endiabe@udel.edu) or Kyle Davis (kfdavis@udel.edu) for any questions.
 
 ## Data Citation
-
-Kebede, E., K. O. Oluoch, S. Siebert, P. Mehta, S. Hartman, J. Jägermeyr, D. Ray, T. Ali, K. A. Brauman, Q. Deng, W. Xie, K. F. Davis (2024). A global open-source dataset of monthly irrigated and rainfed cropped areas (MIRCA-OS) for the 21st century, HydroShare, http://www.hydroshare.org/resource/c6d6aec640de4b0881aa83132990d2b2
+Kebede, E., K. O. Oluoch, S. Siebert, P. Mehta, S. Hartman, J. Jägermeyr, D. Ray, T. Ali, K. A. Brauman, Q. Deng, W. Xie, K. F. Davis (2024). A global open-source dataset of monthly irrigated and rainfed cropped areas (MIRCA-OS) for the 21st century, HydroShare, https://doi.org/10.4211/hs.60a890eb841c460192c03bb590687145
 
 ## Report Citation 
 
