@@ -51,4 +51,4 @@ Kebede, E., K. O. Oluoch, S. Siebert, P. Mehta, S. Hartman, J. Jägermeyr, D. Ra
 
 ## Report Citation 
 
-Kebede, E. A., Oluoch, K. O., Siebert, S., Mehta, P., Hartman, S., Jägermeyr, J., Ray, D., Ali, T., Brauman, K. A., Deng, Q., Xie, W., Davis, K. F. (2024). A global open-source dataset of monthly irrigated and rainfed cropped areas (MIRCA-OS) for the 21st century. EarthArXiv preprint. https://doi.org/10.31223/X5H125.
+Kebede, E.A., Oluoch, K.O., Siebert, S. et al. A global open-source dataset of monthly irrigated and rainfed cropped areas (MIRCA-OS) for the 21st century. Sci Data 12, 208 (2025). https://doi.org/10.1038/s41597-024-04313-w 
